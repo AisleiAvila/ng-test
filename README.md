@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Dicas
+
+##### Utilização dos seguintes pacotes:
+* <b>karma-chrome-launcher</b> - Responsável pela realização dos testes no Chrome;
+* <b>karma-chrome-launcher</b> - Responsável pela realização dos testes no Firefox;
+* <b>karma-junit-reporter</b> - Responsável pela geração de relatórios dos testes.
+
+##### Scripts para execução dos testes:
+* <b>test</b> - Realiza os testes no navegador Chrome. É aberta janela do navegador;
+* <b>test-common</b> - Realiza os testes nos navegadores Chrome e Firefox. São abertas janelas dos nevegadores;
+* <b>test-ci</b> - Realiza testes nos navegadores Chrome e Firefox. Não são abertas janelas dos navegadores;
+* <b>test-coverage</b> - Realiza testes no navegador Chrome e emite relatório de cobertura dos testes. Exemplo de nome de arquivo gerado nos testes: TESTS-Chrome_Headless_91.0.4472.101_(Windows_8.1)
+
+##### Execução dos scripts:
+* <b>test</b> - ng test ou npm run test
+* <b>test-common</b> - npm run test-common
+* <b>test-ci</b> - npm run test-ci
+* <b>test-coverage</b> - npm run test-coverage
+
